@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.myButton{
+  border-radius: 5px !important;
+  border: 1px solid #888 !important;
+  text-transform: capitalize !important;
+  padding-top: 7px !important;
+  padding-bottom: 7px !important;
+  font-size: 16px !important;
+}
+
+/* ===== Scrollbar Styling ===== */
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #9aa4b2 transparent;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+ 
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+  
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #9ab2b1;
+  border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #6f6b80;
+ 
+}
+
+html{
+  scroll-behavior: smooth;
+}
