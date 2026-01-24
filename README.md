@@ -1,7 +1,7 @@
 # React + Strapi E-commerce
 
 A full-stack e-commerce web application built with **React** for the frontend and **Strapi CMS** for the backend. This project allows users to browse products, add items to the cart, and manage orders.
-
+ 
 ## Features
 
 - Product catalog with images, descriptions, and prices  
